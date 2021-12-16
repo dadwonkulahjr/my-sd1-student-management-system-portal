@@ -12,7 +12,10 @@ namespace MySD1ManagementSystemStudentPortalWeb.Controllers
         [HttpPost]
         public IActionResult UserConfirmation(HappyUserViewModel model)
         {
-            return View();
+            if (!ModelState.IsValid) { return View("index", model); }
+
+            //Next is using the Required attribute for testing validations!
+            return View("index", model);
         }
     }
 }

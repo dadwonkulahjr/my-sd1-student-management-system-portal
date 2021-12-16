@@ -1,30 +1,206 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@*<div class="row">
-    <div class="col-sm-12">
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-header">
-                    <h1 class="display-4">Hi, students!</h1>
-                </div>
-                <div class="card-body">
-                    <div class="text-center">
-                        <p>
-                            welcome to our software development class @DateTime.Now.Year
-                        </p>
-                    </div>
-                </div>
-                <div class="card-footer">
 
+<div id="intro" class="embed-responsive">
+    <div class="container">
+        <div class="row" id="innerDiv">
+            <div class="col-sm-12">
+                <h1>
+                    Hi, welcome to our Software Development I course
+                    <span>@DateTime.Now.Year</span>!
+                </h1>
+                <p>
+                    By the way of introduction i am<br />
+                    Dad S Wonkulah Jr <br /> Fullstack C# Developer/Programmer!
+                    <br />
+                    I hold a BSc. with Distinction in Information Technology <br />
+                    from the United Methodist University!
+                </p>
+                <p>
+                    <b>
+                        This site will be used exclusively for all our school work,
+                        Including assignments and other class activities.
+                    </b>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row embed-responsive text-center" style="margin:auto;">
+    <div class="col-sm-12 m-2">
+        <div class="card-deck">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="card-title">
+                        Introduction to Computer and Programming!
+                    </h6>
+                </div>
+
+                <div class="card-body">
+                    <img class="card-img-top img-thumbnail rounded-circle img-fluid" src="~/images/carousel 12.jpg" />
+                    <hr />
+                    <p class="card-text">
+                        <b>Why Program?</b><br />
+                        CONCEPT: Computers can do many different jobs because th ey are programmable.
+                        Think about some of the different ways that people use computers . In school, students
+                        use computers for tasks such as writing papers, searching for articles, sending e-mail,
+                        and partic ipating in online classes.
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-secondary text-white form-control" href="#">
+                        Details
+                    </a>
                 </div>
             </div>
 
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="card-title">
+                        Introduction to C++ Programming!
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top img-thumbnail img-fluid rounded-circle" src="~/images/carousel 6.jpg" />
+                    <hr />
+                    <p class="card-text">
+                        <b>CONCEPT:</b><br />C++ programs have parts and compone nts th at serve specific purposes.
+                        Every C++ program has an anatomy. Unlike human anatomy, the parts of C++ programs
+                        are not always in the same place . Nevertheless, the parts are there, and your first step in
+                        learning C++ is to learn what they are.
+                    </p>
+
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-secondary text-white form-control" href="#">
+                        Details
+                    </a>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="card-title">
+                        Expression and Intertative!
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top img-thumbnail img-fluid rounded-circle" src="~/images/customImage.jpg" />
+                    <hr />
+                    <p class="card-text">
+                        <b>CONCEPT:</b> <br />in can be used to read data typed at the keyboard.
+                        So far you have written programs with built -in informat ion . You have initialized the
+                        variables with the necessary starting values without letting the user enter his or her
+                        own data.
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-secondary text-white form-control" href="#">
+                        Details
+                    </a>
+                </div>
+            </div>
 
         </div>
-
 
     </div>
 
 
-</div>*@
+</div>
+
+@*Next Role*@
+<div class="row embed-responsive text-center" style="margin:auto;">
+    <div class="col-sm-12 m-2">
+        <div class="card-deck">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="card-title">
+                        Making Decision!
+                    </h6>
+                </div>
+                <img class="card-img-top img-thumbnail img-fluid rounded-circle" src="~/images/decision_making_process.png" />
+                <hr />
+                <div class="card-body">
+                    <p class="card-text">
+                        <b>CONCEPT:</b><br /> Relational operators allow you to compare num eric and c ha r values
+                        and determine whether one is greater than, Jess than, equal to, or not
+                        equal to another.
+                        So far, the programs you have written follow this simple scheme:
+                        <ul class="list-group">
+                            <li>Gather input from the user.</li>
+                            <li>Perform one or more calculations</li>
+                            <li>Display the results on the screen.</li>
+                        </ul>
+
+
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-secondary text-white form-control" href="#">
+                        Details
+                    </a>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="card-title">
+                        Looping!
+                    </h6>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top img-thumbnail img-fluid rounded-circle" src="~/images/looping.jpg" />
+                    <hr />
+                    <p class="card-text">
+                        <b>CONCEPT:</b><br />A loop is part of a program th at repeats.
+                        Chapter 4 included several programs that report a student's letter grade based on his or
+                        her numer ic test score . But what if we want to find out the letter grade for every
+                        student in a class of 20 students? We wou ld have to run the program 20 times . Wou ldn't
+                        it be easier if we cou ld simply indicate that the code shou ld be repeated 20 times in a
+                        single run? Fortunately, there is a mechanism to do this. It is called a loop .
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-secondary text-white form-control" href="#">
+                        Details
+                    </a>
+                </div>
+            </div>
+
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="card-title">
+                        Functions!
+                    </h6>
+                </div>
+
+                <div class="card-body">
+                    <img class="card-img-top img-thumbnail img-fluid rounded-circle" src="~/images/function.jpg" />
+                    <hr />
+                    <p class="card-text">
+                        <b>CONCEPT:</b><br />A program may be broken up into a set of manageable functions, or
+                        modul es. Thi s is called modular programming.
+                        A function is a collection of statements that performs a specific task. So far you have used
+                        functions in two ways: (1) you have created a function called mai n in every program you've
+                        written, and (2) you have called library functions such as pow and sqrt.
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <a class="btn btn-secondary text-white form-control" href="#">
+                        Details
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
