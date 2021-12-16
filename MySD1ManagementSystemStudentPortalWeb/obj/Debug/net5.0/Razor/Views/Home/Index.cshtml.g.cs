@@ -26,8 +26,15 @@ using MySD1ManagementSystemStudentPortalWeb.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD1ManagementSystemStudentPortalWeb\Views\_ViewImports.cshtml"
+using MySD1ManagementSystemStudentPortalWeb.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b574bb9f821ec5c6458cfd15883574d68e943db4", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8e6b7256384b8becc7f35d799b37c407cf8fcae0", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4e9c4f65933b43e9092904fa581b53def6ffdd34", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
