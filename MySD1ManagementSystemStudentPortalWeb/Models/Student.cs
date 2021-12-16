@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MySD1ManagementSystemStudentPortalWeb.Models
 {
@@ -9,5 +10,7 @@ namespace MySD1ManagementSystemStudentPortalWeb.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
+
+        public List<StudentAssignment> StudentAssignments { get; set; }
     }
 }

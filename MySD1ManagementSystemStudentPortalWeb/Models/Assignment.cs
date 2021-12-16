@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 
@@ -13,5 +14,7 @@ namespace MySD1ManagementSystemStudentPortalWeb.Models
         public string Description { get; set; }
 
         public DateTime? Date { get; set; }
+
+        public List<StudentAssignment> StudentAssignments { get; set; }
     }
 }
