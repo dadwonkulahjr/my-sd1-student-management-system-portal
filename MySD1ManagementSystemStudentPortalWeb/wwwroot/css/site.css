@@ -21,6 +21,48 @@ div#intro {
     z-index:5;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 12%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        padding-top: 8%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        padding-top: 4%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        padding-top: 8%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        padding-top: 3%;
+    }
+}
+
+
+
+
+/*
+body{
+    padding-top:5%;
+}*/
 
 a.navbar-brand {
     white-space: normal;
