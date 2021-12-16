@@ -6,7 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MySD1ManagementSystemStudentPortalWeb.Data;
-
+using MySD1ManagementSystemStudentPortalWeb.Services.Reporitory;
+using MySD1ManagementSystemStudentPortalWeb.Services.Reporitory.IRepository;
 
 namespace MySD1ManagementSystemStudentPortalWeb
 {
@@ -29,6 +30,7 @@ namespace MySD1ManagementSystemStudentPortalWeb
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+            services.AddSingleton<IStudentMockRepository, MockStudentRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

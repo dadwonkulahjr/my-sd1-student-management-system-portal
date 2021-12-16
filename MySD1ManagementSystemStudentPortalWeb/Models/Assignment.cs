@@ -15,6 +15,6 @@ namespace MySD1ManagementSystemStudentPortalWeb.Models
 
         public DateTime? Date { get; set; }
 
-        public List<StudentAssignment> StudentAssignments { get; set; }
+        public virtual List<StudentAssignment> StudentAssignments { get; set; }
     }
 }
