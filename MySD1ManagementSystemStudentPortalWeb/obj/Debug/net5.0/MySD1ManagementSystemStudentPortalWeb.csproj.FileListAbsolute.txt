@@ -444,3 +444,5 @@ C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD
 C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD1ManagementSystemStudentPortalWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD1ManagementSystemStudentPortalWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD1ManagementSystemStudentPortalWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD1ManagementSystemStudentPortalWeb\obj\Debug\net5.0\Razor\Views\Students\List.cshtml.g.cs
+C:\Users\Dad S. Wonkulah Jr\source\repos\MySD1ManagementSystemStudentPortal\MySD1ManagementSystemStudentPortalWeb\obj\Debug\net5.0\Razor\Views\Students\UpsertStudent.cshtml.g.cs
